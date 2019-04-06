@@ -12,13 +12,18 @@
 }
 
 .bg-2{
-    height: 65vh;
+    height: 30vh;
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
 .image {
-   width: 100px;
-   height: 100px;
+   width: 75%;
+   height: 75%;
+   transition: box-shadow .3s;
 }
+
+.image:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }

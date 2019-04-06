@@ -60,7 +60,7 @@ if (this.state.score > this.state.highScore){
 
   render() {
     return (
-      <div className="App">
+      <div className="App text-center">
        <Header score = {this.state.score}
        highScore = {this.state.highScore} 
        message = {this.state.message}/>
